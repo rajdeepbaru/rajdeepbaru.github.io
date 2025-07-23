@@ -1,0 +1,356 @@
+*, *:before,*:after{
+  box-sizing: border-box;
+}
+.wrap{
+  background: #fafafa;
+} 
+.header{
+  background-image:url(https://raw.githubusercontent.com/yan-tingciou/course-css-resume-main/7ef7d7da3aee8af12f45062089d9aab48692e958/assets/img-headerShape.png);
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  height: 392px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.left{
+  position: absolute;
+  top: 125px;
+  left: 135px;
+}
+.left h1 {
+  text-align: center;
+  font-size: 42px;
+  margin: 10px 0px;
+}
+.left span{
+  text-align: center;
+  font-size: 14px;
+  display: block;
+  margin: 10px 0px;
+  font-family: Microsoft JhengHei;
+}
+.right{
+  position: absolute;
+  top: 125px;
+  left:  50%;
+}
+.right li{
+  color: #ffffff;
+  line-height: 3;
+  font-size: 18px;
+  font-family: Microsoft JhengHei;
+}
+.right img{
+  margin-right: 15px;
+}
+.skill{
+  margin-top: 60px;
+}
+.skill h2{
+  color: #1736DC;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Microsoft JhengHei;
+  margin: 48px 0px;
+}
+.list{
+  display: flex;
+  justify-content: center;
+}
+.orange{
+  width: 28%;
+  background: #ffffff;
+  margin: 0px 10px;
+  padding: 25px;
+  border-radius: 6px;
+  border-bottom: 6px solid #F58D23;
+}
+.green{
+  width: 28%;
+  background: #ffffff;
+  margin: 0px 10px;
+  padding: 25px;
+  border-radius: 6px;
+  border-bottom: 6px solid #539E43;
+}
+.blue{
+  width: 28%;
+  background: #ffffff;
+  margin: 0px 10px;
+  padding: 25px;
+  border-radius: 6px;
+  border-bottom: 6px solid #6762A6;
+}
+.list img{
+  display: block;
+  margin: 0 auto;
+}
+.list h3{
+  color: #4A4A4A;
+  font-size: 18px;
+  text-align: center;
+  font-family: Microsoft JhengHei;
+  margin: 25px 0px;
+}
+.list li:hover{
+  box-shadow: 3px 5px 8px 2px #718093;
+  cursor: pointer;
+}
+.orange li{
+  color: #4A4A4A;
+  font-size: 10px;
+  font-family: Microsoft JhengHei;
+  list-style-type: disc;
+  line-height: 1.5;
+}
+.green li{
+  color: #4A4A4A;
+  font-size: 10px;
+  font-family: Microsoft JhengHei;
+  list-style-type: disc;
+  line-height: 1.5;
+}
+.blue li{
+  color: #4A4A4A;
+  font-size: 10px;
+  font-family: Microsoft JhengHei;
+  list-style-type: disc;
+  line-height: 1.5;
+}
+.experience h2{
+  text-align: center;
+  color: #1736DC;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Microsoft JhengHei;
+  margin: 48px 0px;
+}
+.experience h3{
+  font-family: Microsoft JhengHei;
+  font-size: 12px;
+  color: #8A1737;
+  letter-spacing: 0.53px;
+}
+.experience h4{
+  font-family: Microsoft JhengHei;
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 0.53px;
+}
+.experience h5{
+  font-family: Microsoft JhengHei;
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 0.53px;
+}
+.experience p{
+  font-family: Microsoft JhengHei;
+  font-size: 10px;
+  color: #9B9B9B;
+  letter-spacing: 0.44px;
+}
+.experience img{
+  display: block;
+  margin: 0 auto;
+}
+.first{
+  position: relative;
+  top: 10px;
+}
+.second{
+  position: relative;
+  top: 80px;
+  z-index: 5;
+}
+.third{
+  position: relative;
+  top: 200px;
+  z-index: 5;
+}
+.fourth{
+  position: relative;
+  top: 320px;
+  z-index: 5;
+}
+.square-one{
+  width: 260px;
+  height: 136px;
+  position: absolute;
+  left: 52.5%;
+  border: 1px #FB56BF solid;
+  border-radius: 10px;
+  background: #FFFFFF;
+  padding: 6px;
+  line-height: 2;
+}
+.square-two{
+  width: 260px;
+  height: 136px;
+  position: absolute;
+  left: 20.5%;
+  top: 1188px;
+  border: 1px #FB56BF solid;
+  border-radius: 10px;
+  background: #FFFFFF;
+  padding: 6px;
+  line-height: 2;
+  text-align: right;
+}
+.square-three{
+  width: 260px;
+  height: 136px;
+  position: absolute;
+  left: 52.5%;
+  top: 1337px;
+  border: 1px #FB56BF solid;
+  border-radius: 10px;
+  background: #FFFFFF;
+  padding: 6px;
+  line-height: 2;
+}
+.square-one:hover, .square-two:hover, .square-three:hover{
+  box-shadow: 0px 2px 10px 2px #718093;
+  cursor: pointer;
+}
+.v-line{
+  border-left: 2px solid #D8D8D8;
+  height: 565px;
+  top: -80px;
+  left: 49.95%;
+  position: relative;
+}
+.hr5{
+  width: 46px;
+  border-radius: 2px;
+  top: -90px;
+  border: 2px solid #D8D8D8;
+  position: relative;
+}
+
+.work h2{
+  text-align: center;
+  color: #FB56BF;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Microsoft JhengHei;
+  margin-bottom: 40px;
+}
+.work ul{
+  display: flex;
+  justify-content: center;
+}
+.work img{
+  display: flex;
+  margin: 45px auto;
+  align-items: center;
+}
+.work-pink img{
+  display: flex;
+  margin: 56px 0px 0px 77px;
+  align-items: center;
+}
+.work-pink{
+  width: 284px;
+  height: 213px;
+  background: #fdb4e3;
+  border-radius: 4px;
+  margin: 0px 10px;
+}
+.work-black{
+  width: 284px;
+  height: 213px;
+  background: #424242;
+  border-radius: 4px;
+  margin: 0px 10px;
+}
+.work-blue{
+  width: 284px;
+  height: 213px;
+  background: #8AD7FA;
+  border-radius: 4px;
+  position: relative;
+  margin: 0px 10px;
+}
+.work li:hover{
+  box-shadow: 3px 5px 8px 2px #718093;
+  cursor: pointer;
+}
+.work p{
+  background: #ffffff;
+  vertical-align: bottom;
+  font-size: 14px;
+  color: #4A4A4A;
+  font-family: Microsoft JhengHei;
+  padding: 5px;
+  line-height: 1.5;
+}
+.work h3{
+  background: #ffffff;
+  vertical-align: bottom;
+  font-family: Microsoft JhengHei;
+  padding: 5px;
+}
+.self{
+  display: flex;
+  justify-content: center;
+  margin: 10px 50px;
+}
+.introduction{
+  margin: 130px 0px 60px;
+}
+.introduction h2{
+  color: #FB56BF;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Microsoft JhengHei;
+  margin: 48px 0px;
+}
+.introduction p{
+  width: 442px;
+  font-family: Microsoft JhengHei;
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+}
+.introduction img{
+  width: 260px;
+  margin-right: 25px;
+}
+.footer{
+  background-image: url(https://raw.githubusercontent.com/yan-tingciou/course-css-resume-main/7ef7d7da3aee8af12f45062089d9aab48692e958/assets/img-Looper-bg.png);
+  background-repeat: no-repert;
+  height: 87px;
+  margin: 0px auto;
+  text-align: center;
+}
+.footer span{
+  display: inline-block;
+  margin-top: 35px;
+  font-family: Microsoft JhengHei;
+  font-size: 16px;
+  color: #000000;
+}
+@media screen and (max-width:767px) {
+  .left{
+  position: absolute;
+  top: 125px;
+  left: 8%;
+  }
+  .right{
+  position: absolute;
+  top: 125px;
+  left: 40%;
+  }
+  .list{
+   flex-direction: column;
+   align-items: center;
+  }
+  .first, .second, .third, .fourth{
+    display: none;
+  }
+}

@@ -1,0 +1,44 @@
+body {
+  background: radial-gradient(circle, #0f0f0f 10%, transparent 11%),radial-gradient(circle at bottom left, #0e0e0e 5%, transparent 6%),radial-gradient(circle at bottom right, #0e0e0e 5%, transparent 6%),radial-gradient(circle at top left, #0e0e0e 5%, transparent 6%),radial-gradient(circle at top right, #0e0e0e 5%, transparent 6%);
+  background-size: 3em 3em;
+  background-color: #ffffff;
+  opacity: 1
+  display: flex;
+  justify-content: center;
+}
+
+
+.content01 {
+  max-width: 1000px;
+  margin: auto;
+}
+
+button {
+  border: 1px solid #555555; /* Green */
+  border-radius: 5px;
+  padding-bottom: 3px;
+  transition-duration: 0.4s;
+  color: #fff;
+  cursor:pointer;
+  position: relative;
+  background: url('images/images/build-btn.gif') no-repeat 50%;
+  background-size: auto;
+  background-size: auto;
+  background-size: cover;
+  font-weight: 600;
+  font-style: italic;
+
+}
+
+#document-controls {
+  position: fixed;
+  right: 0;
+  top: 5em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+
